@@ -1,0 +1,82 @@
+body {
+  display: flex;
+  justify-content: center;
+  padding-top: 300px;
+  background-color: #2F4F4F;
+}
+
+#output {
+  background-color: pink;
+  padding: 50px;
+  grid-column: span 4;
+  border: solid black 4px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.previousOperand {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 24px;
+}
+
+.currentOperand {
+  position: absolute;
+  top: 65px;
+  right: 10px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 26px;
+}
+
+.calculator {
+  background-color: grey;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 500px;
+  grid-gap: 2px;
+  padding: 10px;
+  border: solid black 5px;
+}
+
+button {
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 15px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #ABB2B9;
+}
+
+.custom-button {
+  background-color: #FF6C00;
+}
+
+.custom-button:hover {
+  background-color: #FF8000;
+}
+
+.custom-button2 {
+  background-color: red;
+}
+
+.custom-button2:hover {
+  background-color: #FF4500;
+}
+
+.custom-button3 {
+  background-color: #FFEC00;
+}
+
+.custom-button3:hover {
+  background-color: #CEB802;
+}
+
+.span-two {
+  grid-column: span 2;
+}
